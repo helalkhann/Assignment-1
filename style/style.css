@@ -2,7 +2,6 @@
 *{
     margin:0;
     padding:0;
-    /* background-color:rgb(228, 227, 227); */
 }
 html,body{
     width:100%;
@@ -12,6 +11,8 @@ html,body{
     font-family: "Work Sans", serif;
     font-optical-sizing: auto;
     font-style: normal;
+    
+    background-color:rgb(245, 245, 245);
 }
 #body{
     margin-left:160px;
@@ -32,7 +33,7 @@ html,body{
     justify-content: space-between;
     align-items: center;
 }
-.navbar h2{
+.navbar>h2{
     font-size:32px;
     font-weight:bold;
     color:#0E0E0E
@@ -71,4 +72,60 @@ header .slidebar{
     height:400px;
     margin-left:64px;
     margin-right:64px;
+}
+#vision-secion{
+    margin-top:80px;
+}
+#vision-secion>h1{
+    font-size:40px;
+    font-weight:700;
+    color:rgb(14, 14, 14);
+}
+#vision-secion>p{
+    width:90%;
+    font-size:16px;
+    font-weight:400;
+    color:rgba(14, 14, 14, 0.7);
+    margin-top:24px;
+}
+.vision-list{
+    margin-top:32px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+ .list-box{
+    width:410px;
+    height:217px;
+    padding:32px;
+    border-radius:10px;
+}
+.vision-list .first-box{
+    background-color:rgb(198, 228, 214);
+}
+.vision-list .second-box{
+    background-color:rgb(198, 228, 214);
+}
+.vision-list .third-box{
+    background-color:rgb(247, 235, 207);
+}
+.list-box >img{
+    size:64px;
+}
+.list-box >h2{
+    margin-top:24px;
+    font-size:20px;
+    font-weight:700;
+    color:rgba(14, 14, 14, 0.8);
+}
+.list-box >p{
+    margin-top:12px;
+    font-size:16px;
+    font-weight:400;
+    color:rgba(14, 14, 14, 0.7);
+}
+.list-box .list-box-btn{
+    margin-top:24px;
+    padding:11px 20px;
 }
