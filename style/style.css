@@ -155,3 +155,61 @@ header .slidebar{
 .quote p{
     color:rgba(14, 14, 14, 0.6);
 }
+#news{
+    margin-top:80px;
+}
+#news>h1{
+    font-size:40px;
+    font-weight:700;
+    color:rgb(14, 14, 14);
+}
+#news .news-head-summery{
+    font-size:20px;
+    font-weight:400;
+    color:rgba(14, 14, 14, 0.7);
+    margin-top:24px;
+}
+.news-content-head{
+    height: 380px;
+    margin-top:32px;
+    padding:40px;
+    background-color: white;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.news-img{
+    width:408px;
+    height: 306px;
+    margin:24px;
+    
+}
+.news-img img{
+    border-radius: 20px;
+}
+.news-content{
+    height: 306px;
+}
+.news-content>h1{
+    font-size:32px;
+    font-weight:700;
+    color:rgba(14, 14, 14, 0.8)
+}
+.news-content>img{
+    margin-top:12px;
+}
+.news-content .news-time{
+    margin-top:12px;
+    display:flex;
+    gap:10px;
+    margin-bottom:12px;
+}
+.parag{
+    font-size:20px;
+    color:rgba(14, 14, 14, 0.7);
+
+}
+.news-content .btn{
+    margin-top:25px;
+}
